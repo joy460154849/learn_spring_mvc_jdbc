@@ -8,7 +8,7 @@
 		ds.setPassword("root");
 		return ds;
 	}
-2.jdbcTemplate配置
+2.jdbcTemplate配置 db.DBInterface
 	@Bean
 	public JdbcTemplate jdbcTemplate(DataSource dataSource){
 		return new JdbcTemplate(dataSource);
